@@ -1,0 +1,245 @@
+html, body {
+    background-color: #111111;
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #2b2b2b;
+}
+
+.navbar .left-part {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left-part a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar .left-part h4 {
+    color: #FFFFFF;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.navbar .right-part {
+    display: flex;
+}
+
+.upload-page, .download-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.upload-page .inside {
+    width: 100%;
+    margin: auto;
+}
+
+.upload-form {
+    width: 100%;
+}
+
+#upload-form {
+    display: none;
+}
+
+#upload-form.visible {
+    display: block;
+}
+
+.download-page .inside {
+    width: 100%;
+    margin: auto;
+}
+
+.upload-label {
+    background: #1f1f1f;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.upload-icon {
+    width: 80px;
+    filter: brightness(0) invert(1);
+}
+
+.upload-text {
+    color: #FFFFFF;
+}
+
+.button-row {
+    display: none;
+}
+
+.button-row.visible {
+    display: flex;
+}
+
+.button-default {
+    background-color: #9146ff;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif !important;
+    border: 0;
+    outline: 0;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.button-default .icon {
+    height: 22px;
+    filter: brightness(0) invert(1);
+}
+
+.files-box {
+    display: none;
+    background-color: #1f1f1f;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    padding: 8px 18px;
+    border-radius: 12px;
+}
+
+.files-box.visible {
+    display: block;
+}
+
+.file-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.file-box-name, .file-box-size {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #CECECE;
+}
+
+.send-box {
+    background-color: #1F1F1F;
+    border-radius: 12px;
+    width: auto;
+    max-width: 768px;
+    margin: auto;
+    text-align: center;
+    padding: 24px;
+    display: none;
+}
+
+.send-box.visible {
+    display: block;
+}
+
+.send-text, .send-text-heading {
+    color: #FFFFFF;
+}
+
+.send-text {
+    opacity: 0.8;
+}
+
+.send-icon {
+    width: 60px;
+    filter: brightness(0) invert(1);
+}
+
+.send-input-field {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #2a2a2a;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #C9C9C9;
+    text-align: center;
+    width: 350px;
+}
+
+.expiration-element {
+    text-align: center;
+    display: none;
+}
+
+.expiration-element.visible {
+    display: block;
+}
+
+.expiration-datetime {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: unset;
+    border: 1px solid #C9C9C9;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #C9C9C9;
+}
+
+.expiration-label {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+td, th {
+    background-color: unset !important;
+    vertical-align: middle;
+}
+
+.broken-link-box {
+    background-color: #1F1F1F;
+    border-radius: 12px;
+    width: auto;
+    max-width: 768px;
+    margin: auto;
+    text-align: center;
+    padding: 24px;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.broken-link-box img {
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.broken-link-text {
+    color: #FFFFFF;
+}
+
+.progress-bar {
+    max-width: 350px;
+    margin: auto;
+    border-radius: 4px;
+}
